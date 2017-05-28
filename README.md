@@ -1,11 +1,3 @@
-# `MaskedInput`
-
-A [React](http://facebook.github.io/react/) component for `<input>` masking, built on top of [inputmask-core](https://github.com/insin/inputmask-core).
-
-![This project has never been used by its author, other than while making it.](https://img.shields.io/badge/author--usage-never-red.png "This project has never been used by its author, other than while making it")
-
-## [Live Demo](http://insin.github.io/react-maskedinput/)
-
 ## Install
 
 ### npm
@@ -130,5 +122,3 @@ Any other props passed in will be passed as props to the rendered `<input>`, exc
 
 * `maxLength` - will always be equal to the pattern's `.length`
 * `onKeyDown`, `onKeyPress` & `onPaste` - will each trigger a call to `onChange` when necessary
-
-## MIT Licensed
